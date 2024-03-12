@@ -1,8 +1,20 @@
+### In progress - ToDo list - 2024-03-12
+- Charts and visualizations for analyses
+- Visual tables for aggregated functions
+- Improvement of the documentation
+
 ## Introduction
 Project for analysing data driven job markets. Focusing mainly on Data Analyst roles in Finland. Looking for high demand and highly paid data jobs. Queries used in the project can be found here: [project_sql](/project_sql/)
 
+Visualization in progress...
+
 ## Background
-Educational project guided by Luke Barousse
+Educational project from SQL course by Luke Barousse. 
+Source files: 
+- lukeb.co/sql_project_csvs
+- lukeb.co/sql_jobs_db
+- lukeb.co/sql_invoices_db
+
 
 ### The questions for analysis
 1. top paying jobs
@@ -113,9 +125,9 @@ order by skill_count desc
 limit 5
 ;
 ```
-```sql
 Top demanded skills overall with slightly different kind of query. 
 Location set to 'Finland'
+```sql
 
 select 
     skills, 
